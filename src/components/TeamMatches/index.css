@@ -1,0 +1,82 @@
+/* Write your CSS here */
+
+.match-details-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.rr {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.sh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.team-match-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-match-container {
+    max-width: 1260px;
+    margin-top: 50px;
+  }
+}
+
+.team-bannar-style {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.latest-match-card {
+  width: 100%;
+}
+
+.sub-heading {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.match-card {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    margin-top: 35px;
+  }
+}

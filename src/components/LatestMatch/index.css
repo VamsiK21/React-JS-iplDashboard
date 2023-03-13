@@ -1,0 +1,136 @@
+/* Write your CSS here */
+
+.latest-match-container {
+  width: 100%;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+  }
+}
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .left-part {
+    align-items: flex-start;
+  }
+}
+
+.competing-team {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 22px;
+  }
+}
+
+.date-text {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .date-text {
+    font-size: 20px;
+  }
+}
+
+.venue-text {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .venue-text {
+    font-size: 16px;
+  }
+}
+
+.result-text {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .result-text {
+    font-size: 16px;
+  }
+}
+
+.competing-logo {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-logo {
+    width: 180px;
+    height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .right-side {
+    align-items: flex-end;
+  }
+}
+
+.right-text {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .right-text {
+    font-size: 14px;
+    text-align: right;
+  }
+}
